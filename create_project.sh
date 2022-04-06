@@ -1,17 +1,8 @@
-while getopts name:org: flag
-do
-    case "${flag}" in
-        name) name=${OPTARG};;
-        org) org=${OPTARG};;
-    esac
-done
+#!/bin/bash    
+name=test_bar
+org=ru.trofimov
 
-echo "name: $name";
-echo "org: $org";
-
-
-flutter create $name 
-flutter create --org $org your_app_name
+flutter create --org $org $name
 cd $name/ 
 
 flutter pub add dart_code_metrics
