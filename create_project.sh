@@ -265,8 +265,8 @@ flutter pub outdated
 echo
 echo "     All done!"
 echo
-echo "     $name"
-echo "     $org"
+echo "     $name << name project"
+echo "     $org.$name << id package"
 echo
 echo "     In order to run your application, type:"
 echo
