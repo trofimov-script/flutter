@@ -1,7 +1,11 @@
 #!/bin/bash    
-name=test_bar
-org=ru.example
 
+echo "Enter the project name: "  
+read name   
+echo  
+echo "Enter package id: "  
+read org
+ 
 flutter create --org $org $name
 cd $name/ 
 
