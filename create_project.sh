@@ -1,8 +1,10 @@
 #!/bin/bash    
 
 read -e -p "Enter project name:" -i "test_app" name  
-echo   
+echo $name 
 read -e -p "Enter package id:" -i "ru.example" org
+echo $org 
+echo
 
  
 flutter create --org $org $name
