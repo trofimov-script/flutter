@@ -1,6 +1,6 @@
 #!/bin/bash    
 name=test_bar
-org=ru.trofimov
+org=ru.example
 
 flutter create --org $org $name
 cd $name/ 
@@ -247,7 +247,7 @@ dart_code_metrics:
     - avoid-wrapping-in-padding
     - avoid-unnecessary-setstate
     - avoid-returning-widgets
-    - always-remove-listener"> analysis_options.yaml 
+    - always-remove-listener"\> analysis_options.yaml 
 
 
 flutter clean
