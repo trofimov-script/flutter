@@ -1,10 +1,19 @@
 #!/bin/bash    
 
-read -e -p "Enter project name:" -i "test_app" name  
-echo $name 
-read -e -p "Enter package id:" -i "ru.example" org
-echo $org 
-echo
+# read -e -p "Enter project name:" -i "test_app" name  
+# echo $name 
+# read -e -p "Enter package id:" -i "ru.example" org
+# echo $org 
+# echo
+
+
+read -p "Enter project name: [richard]: " name
+name=${name:-richard}
+echo $name
+
+read -p "Enter project id: [richard]: " org
+org=${org:-richard}
+echo $org
 
  
 flutter create --org $org $name
