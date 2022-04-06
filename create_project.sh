@@ -263,11 +263,15 @@ flutter pub upgrade
 flutter pub outdated
 
 echo
-echo ">>>> All done!"
-echo ">>>> In order to run your application, type:"
+echo "     All done!"
 echo
-echo ">>>> cd $name"
-echo ">>>> flutter run"
+echo "     $name"
+echo "     $org"
+echo
+echo "     In order to run your application, type:"
+echo
+echo "     $ cd $name"
+echo "     $ flutter run"
 echo
 
 
