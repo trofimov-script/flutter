@@ -1,18 +1,11 @@
 #!/bin/bash    
 
-# read -e -p "Enter project name:" -i "test_app" name  
-# echo $name 
-# read -e -p "Enter package id:" -i "ru.example" org
-# echo $org 
-# echo
-
-
-read -p "Enter project name: [richard]: " name
-name=${name:-richard}
+read -p "Enter project name: default [test_app] " name
+name=${name:-test_app}
 echo $name
 
-read -p "Enter project id: [richard]: " org
-org=${org:-richard}
+read -p "Enter project id: [ru.example]: " org
+org=${org:-ru.example}
 echo $org
 
  
