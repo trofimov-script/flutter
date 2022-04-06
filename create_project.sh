@@ -4,13 +4,13 @@ read -p "Enter project name: default [test_app] " name
 name=${name:-test_app}
 echo $name
 
-read -p "Enter project id: [ru.example]: " org
+read -p "Enter project id: default [ru.example] " org
 org=${org:-ru.example}
 echo $org
 
  
 flutter create --org $org $name
-cd $name/ 
+cd $name 
 
 flutter pub add dart_code_metrics
 
@@ -261,4 +261,5 @@ flutter clean
 flutter pub get
 flutter pub upgrade
 flutter pub outdated
+cd $name 
 
