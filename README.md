@@ -10,6 +10,16 @@
 
  Создает проект в текущей директории с 2мя статическими анализаторами flutter_lints и dart_code_metric и max набором правил, с возможностью ввести имя проекта и id пакета  
  
+
+
+## Installation
+
+Enter in terminal
+
+```sh
+ bash <(curl -Ls https://raw.githubusercontent.com/trofimov-script/flutter/main/create_project.sh)
+```
+
  ### 2 - add_bloc
 
 Добавляет через flutter pub add >>> bloc и его разновидности
@@ -19,5 +29,5 @@
 Enter in terminal
 
 ```sh
- bash <(curl -Ls https://raw.githubusercontent.com/trofimov-script/flutter/main/create_project.sh)
+ bash <(curl -Ls https://raw.githubusercontent.com/trofimov-script/flutter/main/add_bloc.sh)
 ```
