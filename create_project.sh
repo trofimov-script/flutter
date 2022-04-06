@@ -3,11 +3,11 @@
 read -p "Enter project name: default [test_app] " name
 name=${name:-test_app}
 echo $name
-
+echo
 read -p "Enter project id: default [ru.example] " org
 org=${org:-ru.example}
 echo $org
-
+echo
  
 flutter create --org $org $name
 cd $name 
