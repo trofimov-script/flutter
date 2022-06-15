@@ -21,7 +21,7 @@
 
 ## 2 - add_freezed
 
-Добавляет через flutter pub add >>> bloc и его разновидности
+Добавляет через flutter pub add >>> freezed и json_serializable
 
 ```sh
  bash <(curl -Ls https://raw.githubusercontent.com/trofimov-script/flutter/main/add_freezed.sh)
